@@ -1,0 +1,13 @@
+body {
+  text-align:center;
+  padding:5%;
+  background-color:#222;
+  color:#fff;
+  font-family:roboto;
+}
+
+.button-load--meme {
+  cursor:pointer;
+  padding:13px 40px;
+  background:red;
+}
