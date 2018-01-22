@@ -10,4 +10,52 @@ body {
   cursor:pointer;
   padding:13px 40px;
   background:red;
+  display:block;
+  margin:0 auto;
+}
+
+.meme-item {
+  text-align:left;
+  display:inline-block;
+  padding:10px;
+  position:relative;
+  width:150px;
+  height:150px;
+  margin:7px;
+  cursor:pointer;
+}
+ .meme-img {
+   width:150px;
+   height:150px;
+   border:3px solid white;
+   position:absolute;
+   object-fit:cover;
+   filter:brightness(90%);
+ }
+.meme-name {
+  width:150px;
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  animation-name:fade-in;
+  animation-duration: 1s;
+}
+
+.meme-no-name {
+  display:none;
+}
+
+.meme-img-darken {
+  background:grey;
+  filter:brightness(10%);
+  animation-name:darken;
+  animation-duration: 1s;
+}
+@keyframes darken {
+  from {filter:brightness(90%)};
+  to {filter:brightness(10%)};
+}
+@keyframes fade-in {
+  from {filter:opacity(0)};
+  to {filter:opacity(100)}
 }
