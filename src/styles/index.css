@@ -6,12 +6,16 @@ body {
   font-family:roboto;
 }
 
+
 .button-load--meme {
   cursor:pointer;
   padding:13px 40px;
-  background:red;
+  border-radius:100px;
   display:block;
   margin:0 auto;
+}
+.form {
+  justify-content:center
 }
 
 .meme-item {
