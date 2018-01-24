@@ -36,6 +36,14 @@ body {
    object-fit:cover;
    filter:brightness(90%);
  }
+ .mymeme-img {
+   position:relative;
+   display:inline-block;
+   margin:7px;
+   width:220px;
+   border-radius:3px;
+   border:solid white 3px;
+ }
 .meme-name {
   width:150px;
   text-align:center;
